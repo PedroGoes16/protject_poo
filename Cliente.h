@@ -1,10 +1,10 @@
-#include <string>
-#include <vector>
-#include "UC.h"
-#include "Fatura.h"
-
 #ifndef CLIENTE_H
 #define CLIENTE_H
+
+#include <string>
+#include <vector>
+#include "UnidadeConsumidora.h"
+#include "Fatura.h"
 
 class Cliente {
     

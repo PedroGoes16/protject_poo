@@ -1,5 +1,5 @@
-#include <stdio>
-#include <string>
+#include <stdio.h>
+#include <string.h>
 #include "Cliente.h"
 
 class UnidadeConsumidora {

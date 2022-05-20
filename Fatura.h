@@ -1,4 +1,5 @@
 #include "UnidadeConsumidora.h"
+#include "Pagamento.h"
 #include <vector>
 
 #ifndef FATURA_H
@@ -12,6 +13,7 @@ class Fatura {
     int vencimento;
     bool statusPagamento;
     std::vector<Fatura> faturasAbertas;
+    Pagamento *PagFat; 
 
 };
 
