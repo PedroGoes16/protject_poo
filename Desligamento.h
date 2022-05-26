@@ -6,9 +6,10 @@
 
 class Desligamento : public ServicoCampo {
 
-    public:
+    private:
     string tipo;
-	
+    
+	public:
     Desligamento();
     void set_tipo();
     str get_tipo(tipo);
