@@ -8,11 +8,9 @@ class LocalizacaoGeografica {
     float longitude;
   
   public:
-    
+    // como já estamos chamando o latitude e longitude no construtor, não precisamos de set (prof disse)
     localizacaoGeografica(float latitude, float longitude);
     void set_latitude();
-    float get_latitude();
     void set_longitude();
-    float get_longitude();
     ~localizacaoGeografica();
 }
