@@ -1,6 +1,3 @@
-
-
-
 class LocalizacaoGeografica { 
   private:
     
@@ -9,7 +6,8 @@ class LocalizacaoGeografica {
   
   public:
     // como já estamos chamando o latitude e longitude no construtor, não precisamos de set (prof disse)
-    localizacaoGeografica(float latitude, float longitude);
+    // ele também me disse que não é necessário o nome da variável, apenas seu tipo
+    localizacaoGeografica(float, float);
     void set_latitude();
     void set_longitude();
     ~localizacaoGeografica();
