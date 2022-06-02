@@ -6,7 +6,7 @@
 class Administrador{
     
     public:
-    void add_usuario(Usuario);
+    void adicionarUsuario(Usuario);
 };
 
 #endif

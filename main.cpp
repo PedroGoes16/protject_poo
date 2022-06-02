@@ -2,7 +2,7 @@
 
 int main(){
 
-    Usuario user = 
+    Usuario user;
     
     return 0;
 }

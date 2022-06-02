@@ -7,12 +7,11 @@
 class TrocaMedidor : public ServicoCampo {
 
     public:
-    string tipo;
+    const std::string tipo = "Troca de Medidor";
     float leituraAntiga;
 	
     TrocaMedidor();
-    void set_tipo();
-    str get_tipo(tipo);
+    std::string get_tipo(tipo);
     void registrarLeitura(float);
     float get_leituraAntiga(leituraAntiga);
     ~TrocaMedidor();

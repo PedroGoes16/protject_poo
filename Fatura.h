@@ -1,20 +1,30 @@
-#include "UnidadeConsumidora.h"
-#include "Pagamento.h"
 #include <vector>
+#include "Data.h"
 
 #ifndef FATURA_H
 #define FATURA_H
 
 class Fatura {
 
-    public:
+    private:
+
     float consumo;
     float valor;
-    int vencimento;
-    bool statusPagamento;
-    std::vector<Fatura> faturasAbertas;
-    Pagamento *PagFat; 
+    Data vencimento;
+    bool status_pagamento = false;  
 
+    public:
+
+    Fatura();
+    Fatura(float, float, Data);
+    void setConsumo(float);
+    float getConsumo();
+    void setValor(float);
+    float getValor();
+    void setVencimento(Data);
+    Data getVencimento();
+    void setStatusPagamento(bool);
+    bool getStatusPagamento();
 };
 
 #endif

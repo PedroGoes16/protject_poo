@@ -1,4 +1,6 @@
 #include "UnidadeConsumidora.h"
+#include <chrono>
+#include <ctime>
 
 #ifndef SERVICOCAMPO
 #define SERVICOCAMPO
@@ -6,10 +8,10 @@
 class ServicoCampo {
 
     public:
-    uc: UnidadeConsumidora;
-    funcionario: Funcionario;
-    dataProgramacao: date;
-    sequencia: int;	
+    UnidadeConsumidora uc;
+    Funcionario funcionario;
+    time_t data_programacao;
+    int sequencia;
 	
     ServicoCampo(UnidadeConsumidora, Funcionario);
     Funcionario get_funcionario(Funcionario);    
